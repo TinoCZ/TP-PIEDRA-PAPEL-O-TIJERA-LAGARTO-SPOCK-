@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url("./IMG/pexels-marek-piwnicki-6160167.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+    padding: 110px;
+    color: white;
+}
+
+
+.botones .posicion{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   padding: 30px;
+}
+
+.rock{
+    color: white;
+    padding: 10px 35px;
+    background: rgba(128, 128, 128, 0.911);
+    border: none;
+    border-radius: 50px;
+}
+
+.rock:hover{
+    background: rgb(175, 174, 174);
+}
+
+.paper{
+    color: white;
+    padding: 10px 35px;
+    background: #000;
+    border: none;
+    border-radius: 50px;
+}
+
+.paper:hover{
+    background: whitesmoke;
+    color: black;
+}
+
+.scissors{
+    color: white;
+    padding: 10px 35px;
+    background: #4e4444;
+    border: none;
+    border-radius: 50px;
+}
+
+.scissors:hover{
+    background: rgb(143, 8, 8);
+}
+
+.lizard{
+    color: white;
+    padding: 10px 35px;
+    background: green;
+    border: none;
+    border-radius: 50px;
+}
+
+.lizard:hover{
+    background: greenyellow;
+    color: #000;
+}
+
+.spock{
+    color: white;
+    padding: 10px 35px;
+    background: #031872;
+    border: none;
+    border-radius: 50px;
+}
+
+.spock:hover{
+    background: #0ef;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.botones p{
+    text-align: center;
+    padding: 30px;
+    color: whitesmoke;
+}
