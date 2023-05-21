@@ -141,7 +141,7 @@ function presionoSpock() {
 
   if (resIA === 'Spock') {
     console.log("Empate");
-    resulFinal.innerHTML = '<strong>"Empate"</strong>'
+    resulFinal.innerHTML = '<strong>Empate</strong>'
   } else if (resIA === 'Tijeras') {
     console.log("Ganaste");
     resulFinal.innerHTML = '<strong>Ganaste, Spock aplasta tijeras</strong>'
